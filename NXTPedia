@@ -1,0 +1,57 @@
+
+<!--Code for Homepage Section-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NxtPedia</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="https://nxtpediahome.niat.tech">NxtPedia</a>
+        </div>
+        <nav class="nav-links">
+            <a href="https://nxtpediaaboutus.niat.tech">About Us</a>
+            <a href="https://forms.gle/66X39kiG51t3h6cr5">Contact Us</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Services</a>
+                <div class="dropdown-content">
+                    <a href="https://nxtpediacars.niat.tech">Cars</a>
+                    <a href="https://nxtpediasport.niat.tech">Sports</a>
+                    <a href="https://nxtpediamusic1.niat.tech/">Music</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="search-container">
+            <h1>Welcome to NxtPedia</h1>
+            <p>The free encyclopedia for the future!</p>
+            <!--<div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search NxtPedia">
+                <button onclick="searchNxtPedia()">Search</button>
+            </div>-->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>NxtPedia is a collaborative project powered by unpaid volunteers.</p>
+        <p>Content available under <a href="#">Creative Commons License</a>.</p>
+    </footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>
